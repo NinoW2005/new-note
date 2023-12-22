@@ -1,0 +1,98 @@
+.notes {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.notes .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
+.notes .text-wrapper {
+  position: absolute;
+  top: 61px;
+  left: 42px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: var(--black);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notes .welcome-to-notes {
+  position: absolute;
+  top: 359px;
+  left: 407px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 72px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.notes .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #242424;
+  font-size: 72px;
+  letter-spacing: 0;
+}
+
+.notes .text-wrapper-2 {
+  font-weight: 700;
+}
+
+.notes .item-list {
+  display: flex;
+  flex-direction: column;
+  width: 855px;
+  align-items: flex-start;
+  gap: 5px;
+  position: absolute;
+  top: 475px;
+  left: 293px;
+}
+
+.notes .frame {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.notes .plus {
+  position: relative;
+  width: 19px;
+  height: 19px;
+}
+
+.notes .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+  line-height: normal;
+}
+
+.frame > input {
+  flex: 1;
+  border: none;
+}
